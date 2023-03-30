@@ -1,0 +1,67 @@
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    content: "Div que muda de cor"
+}
+
+
+@media only screen and (max-width: 420px) {
+  #myDiv {
+    background-color: grey;
+  }
+#cores:after {
+    content: "Cinza";
+}
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+#myDiv {
+  background-color: orange;
+}
+
+#cores:after {
+    content: "Laranja";
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+#myDiv {
+  background-color: pink;
+}
+
+#cores:after {
+    content: "Rosa";
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1080px) {
+#myDiv {
+  background-color: red;
+}
+
+#cores:after {
+    content: "Vermelho";
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1366px) {
+#myDiv {
+  background-color: blue;
+}
+
+#cores:after {
+    content: "Azul";
+}
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {
+#myDiv {
+  background-color: yellow;
+}
+
+#cores:after {
+    content: "Amarelo";
+}
+}
