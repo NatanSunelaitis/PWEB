@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Atividade14.css">
+    <script src="./Atividade14.js"></script>
+    <title>Atividade 14</title>
+
+
+</head>
+
+<body>
+    <form name="principal" onsubmit="validacao()">
+        <h1 id="forms">
+            Formulário Principal
+        </h1>
+        <br> <br>
+        <label> Nome: </label>
+        <br> <br>
+        <input type="text" id="nome" name="nome" size="20" minlength="10">
+        <br> <br>
+        <label> Email: </label>
+        <br> <br>
+        <input type="email" id="email" name="email" size="20" maxlength="40">
+        <br> <br>
+        <label> Comentário: </label>
+        <br> <br>
+        <textarea id="comentario" name="comentario" rows="10" cols="50"></textarea>
+        <br> <br>
+        <h2> Pesquisa </h2>
+        <br>
+        <h3> Primeira vez nesta página? </h3>
+        <br>
+        <label> Sim </label>
+        <input type="radio" id="pesquisa" name="pesquisa" value="sim">
+        <label> Não </label>
+        <input type="radio" id="pesquisa" name="pesquisa" value="nao">
+        <br><br><br><br>
+        <input type="submit" id="Enviar" value="Enviar">
+        <input type="reset" id="Limpar" value="Limpar">
+
+</body>
+
+
+</html>
